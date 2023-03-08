@@ -1,0 +1,41 @@
+.login{
+    display: flex;
+}
+.login-bgcar{
+    height: 100vh;
+}
+.login-bgcar img{
+    width: 100%;
+    height: 100%;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    height: 360px;
+    margin: auto;
+    width: 450px;
+}
+.form-top h4{
+    margin-top: 12px;
+}
+.form-bottom button{
+    margin-top: 12px;
+    width: 100%;
+}
+
+@media  (max-width:400px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-bgcar{
+        height: 40vh;
+    }
+    .login-form{
+        margin: 22px;
+        width: 350px;
+    }
+
+
+}
