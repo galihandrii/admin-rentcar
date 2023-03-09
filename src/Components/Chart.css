@@ -1,0 +1,34 @@
+.chart{
+    display: flex;
+    border: 1px dashed green;
+    width: 1822px;
+    margin-left: 80px;
+    height: 100vh;
+   
+}
+.chart-left{
+width: 250px;
+padding: 22px 8px;
+}
+.db-btm{
+    background-color: #CFD4ED;
+    
+}
+.chart-right{
+    background-color: lightgray;
+    padding: 2px 8px;
+    border: 1px dashed red;
+    width: 100%;
+    height: 100%;
+}
+.chart-db{
+    padding: 12px 20px;
+}
+.chart-live{
+    margin-top: 52px;
+}
+.table-live{
+    margin-top:100px;
+    width: 100%;
+    background-color: lightgray;
+}

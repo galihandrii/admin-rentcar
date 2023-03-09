@@ -1,0 +1,22 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80px;
+    text-align: center;
+    border: 1px dashed red;
+    height: 100vh;
+    margin-top: -60px;
+    padding-top: 12px;
+    background-color: #0D28A6;
+    color: white;
+    position: fixed;
+}
+.side-div{
+    border: 1px dashed red;
+}
+.side-div:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #FFFFFF4D;
+}

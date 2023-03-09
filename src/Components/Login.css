@@ -24,6 +24,23 @@
     width: 100%;
 }
 
+@media  (max-width:500px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-bgcar{
+        height: 40vh;
+    }
+    .login-form{
+        margin: auto;
+        margin-top: 22px;
+        width: 350px;
+    }
+
+
+}
+
 @media  (max-width:400px) {
     .login{
         display: flex;
@@ -33,7 +50,8 @@
         height: 40vh;
     }
     .login-form{
-        margin: 22px;
+        margin: auto;
+        margin-top: 22px;
         width: 350px;
     }
 

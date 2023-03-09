@@ -1,0 +1,43 @@
+header{
+    box-shadow: 0px 0px 10px 0px grey;
+    height: 60px;
+    width: 1822px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin-left: 80px;
+
+}
+.header-left{
+    padding-left: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.header-right{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 800px;
+}
+.profile-logo{
+    border-radius: 50%;
+   
+    background-color: cadetblue;
+    height: 40px;
+    width: 40px;
+}
+.logo-name{
+    padding-top: 4px;
+    padding-left: 12px;
+}
+.mail-name{
+    color: black;
+    font-size: 16px;
+    padding: 4px;
+    border: 1px grey solid;
+    border-radius: 12px;
+}
+.mail-name-arrow{
+    padding-left: 12px;
+}
