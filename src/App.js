@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router';
 import Loginpage from './Pages/Loginpage';
 import Dashboard from './Pages/Dashboard';
 import ProtectedRoute from './hoc/ProtectedRoute';
+import Carlist from './Pages/Carlist';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path='/' element={<Loginpage/>} />
       <Route element={<ProtectedRoute/>}>
       <Route path='/dashboard' element={<Dashboard/>} />
+      <Route path='/carlist' element={<Carlist/>} />
       </Route>
       
     </Routes>
