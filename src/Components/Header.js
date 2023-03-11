@@ -9,16 +9,16 @@ import Rectangle2 from "../Assets/Rec2.png"
 
 
 const Header = () => {
+   
+
     const items = [
         {
           key: '1',
-          label: 'Sign Out',
+          label: <p>Sign Out</p>,
         },
       ];
 
-
-
-
+     
 
     return(
         <header>
@@ -41,7 +41,7 @@ const Header = () => {
                 <div className='profile-logo'><h4 className='logo-name'>A</h4></div>
                 <div className='d-down'>
                 <Dropdown
-                    menu={{
+                    menu={{  
                     items,
                     selectable: true,
                     defaultSelectedKeys: ['3'],
