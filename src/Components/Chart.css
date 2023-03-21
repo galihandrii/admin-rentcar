@@ -2,14 +2,17 @@
     display: flex;
     width: 1822px;
     margin-left: 80px;
-    height: 100vh;
    
 }
 .chart-left{
+    margin-top: 12px;
 width: 250px;
-padding: 22px 8px;
 }
-.db-btm{
+.chart-left h6 {
+    padding: 8px 6px;
+}
+.db-btm p{
+    padding: 8px 6px;
     background-color: #CFD4ED;
     
 }
