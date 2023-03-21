@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { listCar } from "../Redux/Actions/listcarAction";
 import moment from "moment/moment";
 
-
 const Thecars = () => {
 const dispatch = useDispatch();
 const state = useSelector((rootReducer)=> rootReducer)
@@ -78,11 +77,11 @@ useEffect(()=>{
                                             <p>
                                             {(() => {
                                                 if (item.category === "small") {
-                                                return <p>2-4 Orang</p>
+                                                return <p>👤 2-4 Orang</p>
                                             } else if (item.category === "Medium") {
-                                                return <p>4-6 Orang</p>
+                                                return <p>👤 4-6 Orang</p>
                                             } else if (item.category === "large") {
-                                                return <p>6-8 Orang</p>
+                                                return <p>👤 6-8 Orang</p>
                                             } else {
                                                 return '-'
                                                 }
