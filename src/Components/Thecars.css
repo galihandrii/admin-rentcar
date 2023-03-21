@@ -1,0 +1,67 @@
+.carsec{
+    display: flex;
+    width: 1824px;
+    margin-left: 80px;
+    border:2px red dashed ;
+    height: 100vh;
+}
+.carsec-left{
+    width: 250px;
+    margin-top: 12px;
+}
+.carsec-left h5{
+    padding: 8px 6px;
+}
+.carsec-left h6 {
+    padding: 8px 6px;
+    background-color: #CFD4ED;
+}
+.carsec-right{
+    padding-top: 12px;
+    background-color: lightgray;
+    width: 100%;
+}
+.carsec-right-top p{
+padding: 8px 16px;
+}
+.carsec-right-mid h5{
+    padding: 8px 16px;
+}
+.carsec-right-mid-cat{
+    margin-top: 24px;
+    padding-left: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.catss{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.catss:hover{
+    cursor: pointer;
+   background-color: lightblue;
+   box-shadow: 1px 1px 6px 1px grey;
+}
+.catss p{
+    margin-top: 8px;
+}
+.carsec-right-mid-cat-left{
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+}
+.carsec-right-mid-cat-right button{
+    margin-right: 52px;
+    height: 40px;
+    width: 250px;
+}
+.carsec-right-bottom{
+    margin-top: 32px;
+    height: 100%;
+    border: 2px black dashed;
+}
