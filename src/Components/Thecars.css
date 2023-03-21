@@ -21,14 +21,14 @@
     width: 100%;
 }
 .carsec-right-top p{
-padding: 8px 16px;
+padding: 8px 28px;
 }
 .carsec-right-mid h5{
-    padding: 8px 16px;
+    padding: 8px 28px;
 }
 .carsec-right-mid-cat{
     margin-top: 24px;
-    padding-left: 8px;
+    padding-left: 28px;
     display: flex;
     justify-content: space-between;
 }
