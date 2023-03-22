@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { listCar } from "../Redux/Actions/listcarAction";
 import moment from "moment/moment";
+import { handleFilter } from '../Redux/Actions/listcarAction';
 
 const Thecars = () => {
 const dispatch = useDispatch();
@@ -31,7 +32,26 @@ useEffect(()=>{
 },[])
 
 
+const handleAllCar = () => {
+    const category = ""
+    dispatch(handleFilter(category))
+}
 
+const handleSFilter = () => {
+    const category = "small"
+    dispatch(handleFilter(category))
+}
+
+const handleMFilter = () => {
+    const category = "Medium"
+    dispatch(handleFilter(category))
+}
+
+const handleLFilter = () => {
+    const category = "large"
+    dispatch(handleFilter(category))
+
+}
 
 
 
@@ -56,10 +76,10 @@ useEffect(()=>{
                     <div><h5>List Cars</h5></div>
                     <div className="carsec-right-mid-cat">
                         <div className="carsec-right-mid-cat-left">
-                        <div className="catss"><p>All Cars</p></div>
-                        <div className="catss"><p>2-4 Orang</p></div>
-                        <div className="catss"><p>4-6 Orang</p></div>
-                        <div className="catss"><p>6-8 Orang</p></div>
+                        <div className="catss" onClick={handleAllCar}><p>All Cars</p></div>
+                        <div className="catss" onClick={handleSFilter}><p>2-4 Orang</p></div>
+                        <div className="catss" onClick={handleMFilter}><p>4-6 Orang</p></div>
+                        <div className="catss" onClick={handleLFilter}><p>6-8 Orang</p></div>
                         </div>
                         <div className="carsec-right-mid-cat-right">
                         <Button variant="primary"> + Add New Car</Button>
