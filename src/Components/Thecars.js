@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { listCar } from "../Redux/Actions/listcarAction";
 import moment from "moment/moment";
 import { handleFilter } from '../Redux/Actions/listcarAction';
+import { handleDelete } from '../Redux/Actions/listcarAction';
 
 const Thecars = () => {
 const dispatch = useDispatch();
@@ -51,6 +52,11 @@ const handleLFilter = () => {
     const category = "large"
     dispatch(handleFilter(category))
 
+}
+
+const handleDeletes = (id) => {
+    // get id from API, use this function like example bellow
+    dispatch(handleDelete(id))
 }
 
 
@@ -112,7 +118,7 @@ const handleLFilter = () => {
                                         </div>
                                         <div className='card-button'>
                                             <div>
-                                            <Button variant="outline-danger">Delete</Button>
+                                            <Button variant="outline-danger" onClick={() => handleDeletes(item.id)}>Delete</Button>
                                             </div>
                                             <div>
                                                 <Link>
