@@ -88,7 +88,9 @@ const handleDeletes = (id) => {
                         <div className="catss" onClick={handleLFilter}><p>6-8 Orang</p></div>
                         </div>
                         <div className="carsec-right-mid-cat-right">
-                        <Button variant="primary"> + Add New Car</Button>
+                            <Link to='/add-car'>
+                            <Button variant="primary"> + Add New Car</Button>
+                            </Link>
                         </div>
                     </div>
                     <div className="carsec-right-bottom">

@@ -5,6 +5,7 @@ import Loginpage from './Pages/Loginpage';
 import Dashboard from './Pages/Dashboard';
 import ProtectedRoute from './hoc/ProtectedRoute';
 import Carlist from './Pages/Carlist';
+import AddCar from './Pages/Addcar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route element={<ProtectedRoute/>}>
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/carlist' element={<Carlist/>} />
+      <Route path='/add-car' element={<AddCar/>}/>
       </Route>
       
     </Routes>
