@@ -1,0 +1,27 @@
+.carsec-right-top h3 {
+    padding: 8px 28px;
+}
+
+.input-form{
+    padding: 12px 28px;
+    background-color: whitesmoke;
+    width:100%;
+    display:  flex;
+    gap: 20px;
+}
+input{
+    width: 400px;
+    height: 36px;
+}
+.input-names{
+    width: 200px;
+}
+.carsec-right-btn-save{
+    margin-top: 100px;
+    padding: 8px 28px;
+    display: flex;
+    gap: 30px;
+}
+.carsec-right-btn-save button{
+    width: 100px;
+}

@@ -1,7 +1,13 @@
+import AddNewCar from "../Components/AddNewCar";
+import Header from "../Components/Header";
+import Sidebar from "../Components/Sidebar";
+
 const AddCar = () => {
     return(
         <div>
-            <h1>ini Addcar</h1>
+        <Header/>
+        <Sidebar/>
+        <AddNewCar/>
         </div>
     )
 }
